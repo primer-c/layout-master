@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo of Flex Box</title>
+  <style>
+    .flex_container {
+      display: flex;
+      height: 100px;
+      width: 600px;
+      margin: 200px auto;
+      background-color: skyblue;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .box {
+      width: 60px;
+      height: 60px;
+      background-color: #ccc;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 4px;
+      box-shadow: 0px 1px 5px rgba(0,0,0,.5);
+      font-size: 2em;
+      /* flex-grow + flex-shrink + flex-basis */
+      flex: 0 1 90px;
+    }
+    .A {background-color: orange;}
+    .B {background-color: blue;}
+    .C {background-color: purple;}
+    .D {background-color: green;}
+    .E {background-color: orangered;}
+    .F {background-color: blueviolet;}
+  </style>
+</head>
+<body>
+  <div class="flex_container">
+    <div class="box A">A</div>
+    <div class="box B">B</div>
+    <div class="box C">C</div>
+    <div class="box D">D</div>
+    <div class="box E">E</div>
+    <div class="box F">F</div>
+  </div>
+</body>
+</html>

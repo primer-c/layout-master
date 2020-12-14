@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: '微软雅黑', sans-serif;
+}
+body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container {
+	position: relative;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 300px);
+	grid-template-rows: minmax(100px,auto);
+	/* grid-flow: den */
+}
+.container .box {
+	margin: 10px auto;
+}
+.container .box img {
+	width: 200px;
+	height: 100px;
+}

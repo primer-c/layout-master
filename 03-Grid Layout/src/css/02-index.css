@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+	grid-template-rows: minmax(100px, auto) ;
+}
+
+
+.container div {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+.cell1 {
+	background: green;
+}
+.cell2 {
+	background: yellow;
+}
+.cell3 {
+	background: red;
+}
+.cell4 {
+	background: lightcoral;
+}
+.cell5 {
+	background: blue;
+}
+.cell6 {
+	background: seagreen;
+}
+.cell7 {
+	background: lightgreen;
+}
+.cell8 {
+	background: darkkhaki;
+}
+.cell9 {
+	background: saddlebrown;
+}
+.cell10 {
+	background: purple;
+}
+.cell11 {
+	background: deeppink;
+}
+.cell12 {
+	background: orangered;
+}
